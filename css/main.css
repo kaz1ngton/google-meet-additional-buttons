@@ -1,0 +1,34 @@
+.cZG6je {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.add-button {
+    color: #fff !important;
+    height: 40px !important;
+    width: 40px !important;
+    margin: 0 6px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #3c4043 !important;
+    border-radius: 100px !important;
+    border: unset !important;
+}
+
+.mute-button {
+    width: unset !important;
+    padding: 0 12px;
+}
+
+.mute-button:hover {
+    border: unset !important;
+}
+
+.muted {
+    background-color: #ea4335 !important;
+}
+
+.volume-button {
+    font-size: 24px !important;
+}

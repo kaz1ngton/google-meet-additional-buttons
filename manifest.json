@@ -1,0 +1,28 @@
+{
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "name": "Google Meet additional buttons",
+    "description": "Add some buttons to improve your Google Meet experience",
+    "icons": {
+        "16": "icons/history_man16.png",
+        "48": "icons/history_man48.png",
+        "128": "icons/history_man128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://meet.google.com/*"],
+            "css": ["css/main.css"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+      },
+    "browser_action": {
+        "default_title": "Add buttons"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "https://meet.google.com/*"
+    ]
+}
