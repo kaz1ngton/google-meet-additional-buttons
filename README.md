@@ -13,4 +13,4 @@ This is the first time I've developed a custom extension. Please let me know if 
 
 ## 🕵️ PRIVACY POLICY
 
-We don't store your data, period.
+We don't store your data.
