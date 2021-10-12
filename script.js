@@ -19,7 +19,7 @@ if (buttonsMenu && (!document.querySelector('.add-button'))) {
 
         func(button);
 
-        buttonsMenu.insertBefore(button, document.querySelector('.xEp89c'));
+        buttonsMenu.insertBefore(button, document.querySelector('jsname="oE6Bi"'));
     };
 
     // creating MUTE / UNMUTE buttons
