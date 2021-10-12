@@ -24,12 +24,6 @@ if (buttonsMenu && (!document.querySelector('.add-button'))) {
 
     // creating MUTE / UNMUTE buttons
     createButton({
-        styleList: {
-            width: 'unset',
-            fontWeigth: '500',
-            fontSize: '18px',
-            backgroundColor: '#3c4043',
-        },
         classes: 'mute-button',
         content: 'MUTE',
         func: (button) => {
