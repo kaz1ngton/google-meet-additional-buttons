@@ -1,8 +1,3 @@
-.cZG6je {
-    display: flex !important;
-    justify-content: center !important;
-}
-
 .add-button {
     color: #fff !important;
     height: 40px !important;
@@ -21,7 +16,6 @@
     font-weight: 500 !important;
     font-size: 18px !important;
     width: unset !important;
-    padding: 0 12px;
 }
 
 .mute-button:hover {
@@ -34,4 +28,14 @@
 
 .volume-button {
     font-size: 24px !important;
+    transition: 0.5s;
+}
+
+.volume-button:hover {
+    opacity: 0.75 !important;
+}
+
+.volume-button:active {
+    transform: translateY(2px) !important;
+    opacity: 0.5;
 }
