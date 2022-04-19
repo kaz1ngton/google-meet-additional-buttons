@@ -2,7 +2,6 @@
     color: #fff !important;
     height: 40px !important;
     width: 40px !important;
-    margin: 0 6px !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -15,27 +14,32 @@
 .mute-button {
     font-weight: 500 !important;
     font-size: 18px !important;
-    width: unset !important;
+    width: 100px !important;
 }
 
 .mute-button:hover {
     border: unset !important;
+    background-color: #44474a !important;
 }
 
 .muted {
     background-color: #ea4335 !important;
 }
 
+.muted:hover {
+    background-color: #ea5044 !important;
+}
+
 .volume-button {
     font-size: 24px !important;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .volume-button:hover {
-    opacity: 0.75 !important;
+    background-color: #44474a !important;
 }
 
 .volume-button:active {
-    transform: translateY(2px) !important;
-    opacity: 0.5;
+    transform: translateY(1px) !important;
+    background-color: #44474a !important;
 }
